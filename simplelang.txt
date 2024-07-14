@@ -1,0 +1,13 @@
+var x: int = 5;
+var y: int;
+y = 10;
+
+if (x > y) {
+    var diff: int;
+    diff = x - y;
+    print("x is greater than y by ", diff);
+} else {
+    var sum: int;
+    sum = x + y;
+    print("Sum of x and y is ", sum);
+}
